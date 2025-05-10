@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-6412264727855282">
+  <link rel="canonical" href="https://shaksikoff.pp.ua/music" />
+  <title>SHAKSIK - Music</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/night-theme.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicGroup",
+      "name": "SHAKSIK",
+      "url": "https://shaksikoff.pp.ua/",
+      "sameAs": [
+        "https://youtube.com/@SHAKSIK",
+        "https://soundcloud.com/shaksik",
+        "https://tiktok.com/@shaksik"
+      ],
+      "image": "https://shaksikoff.pp.ua/img/icon.png",
+      "genre": "Rap",
+      "foundingDate": "2021"
+    }
+    </script>
+  <style>
+    body {  
+      text-align: center; 
+      font-family: Arial, sans-serif; 
+      font-style: italic;
+    }
+    .container { padding: 20px; }
+    .music-section { padding: 20px; }
+    .home-link { font-size: 18px; text-decoration: none; }
+    .tracks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.track {
+  flex: 0 0 calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+    .track img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.track img:hover {
+  transform: scale(1.1);
+}
+    .track-title {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    iframe {
+      border-radius: 12px;
+      width: 100%;
+      height: 152px;
+    }
+    .listen-btn-halloween {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      background-color: orange;
+      margin-top: 10px;
+    }
+    .listen-btn-newyear {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      background-color: #0055ff;
+      margin-top: 10px;
+    }
+    .listen-btn-polizei {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: rgb(38, 38, 38);
+      margin-top: 10px;
+    }
+    .listen-btn-alou {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      background-color: rgb(0, 187, 255);
+      margin-top: 10px;
+    }
+    .listen-btn-sai {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      background-color: rgb(255, 0, 0);
+      margin-top: 10px;
+    }
+    .listen-btn-sakuras {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      background-color: rgb(225, 0, 255);
+      margin-top: 10px;
+    }
+    .listen-btn-western {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #000000;
+      background-color: rgb(247, 255, 1);
+      margin-top: 10px;
+    }
+    .listen-btn-darkness {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      background-color: rgb(115, 1, 255);
+      margin-top: 10px;
+    } .listen-btn-shadows {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      color: #fff;
+      background-color: rgb(2, 101, 132);
+      margin-top: 10px;
+    }
+    .listen-btn-halloween:hover {
+  background-color: #ff6600;
+}
+.listen-btn-newyear:hover {
+  background-color: #0022aa;
+}
+.listen-btn-polizei:hover {
+  background-color: #666666;
+}
+.listen-btn-alou:hover {
+  background-color: #0099cc;
+}
+.listen-btn-sai:hover {
+  background-color: #470000;
+}
+.listen-btn-sakuras:hover {
+  background-color: #7d024c;
+}
+.listen-btn-western:hover {
+  background-color: #c7c400;
+}
+.listen-btn-darkness:hover {
+  background-color: #5700a8;
+}
+.listen-btn-shadows:hover {
+  background-color: #014d66;
+}
+a[class^='listen-btn'] {
+  transition: background-color 0.3s ease;
+}
+.social-media {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.social-media h2 {
+    font-size: 18px;
+}
+.social-media a {
+    margin: 10px;
+    display: inline-block;
+}
+.social-media img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+.social-media img:hover {
+    transform: scale(1.2);
+}
+.spotify-widget {
+  display: none;
+  margin-top: 10px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+.track:hover .spotify-widget {
+  display: block;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (max-width: 768px) {
+    .tracks {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .track {
+      flex: 0 0 100%;
+      box-sizing: border-box;
+    }
+    .track-title {
+      font-size: 16px;
+    }
+    .home-link {
+      font-size: 14px;
+      padding: 8px 10px;
+      right: 320px;
+      top: 8px;
+    }
+    iframe {
+      height: 200px;
+    }
+    .listen-btn-halloween, .listen-btn-newyear, .listen-btn-polizei, .listen-btn-alou, .listen-btn-sai, .listen-btn-sakuras, .listen-btn-western, .listen-btn-darkness, .listen-btn-shadows {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+    #lang-buttons {
+    position: absolute !important;
+    top: 120px !important;
+    right: 10px !important;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #lang-buttons li button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  #lang-buttons li img {
+    width: 32px;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #lang-buttons li img:hover {
+    transform: scale(1.2);
+  }
+
+  #lang-buttons li:first-child img {
+    width: 32px;
+  }
+  #search-btn {
+    position: absolute !important;
+    top: 90px !important;
+    right: 20px !important;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+body.dark #search-btn {
+  color: white !important;
+}
+  }
+  .footer-text {
+    width: 100%;
+    text-align: center;
+    position: static;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+#back-home {
+  transition: transform 0.2s ease-in-out;
+}
+
+#back-home:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 769px) {
+  .footer-text {
+    width: 10%;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+  top: 1750px;
+  }
+  h1:hover,
+h2:hover,
+.track-title:hover,
+p:hover,
+.footer-text:hover {
+  cursor: url('cursors/purpletext.cur'), auto;
+}
+  body {
+  cursor: url('cursors/purple.cur'), auto;
+}
+.nav-link,
+.nav-link:hover,
+.sound-btn,
+.sound-btn:hover,
+.nav-text,
+.nav-text:hover {
+  cursor: url('cursors/purplehover.cur'), auto !important;
+}
+  #search-btn {
+  position: absolute;
+  top: 12px;
+  right: 100px;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+body.dark #search-btn {
+  color: white !important;
+}
+.sound-btn {
+  transition: transform 0.2s ease-in-out;
+}
+.sound-btn:hover {
+  transform: scale(1.2);
+}
+.highlighted-search {
+    background-color: red;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  #lang-buttons {
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+#lang-buttons li button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+#lang-buttons li img {
+  width: 32px;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  transition: transform 0.2s ease-in-out;
+}
+#lang-buttons li img:hover {
+  transform: scale(1.2);
+}
+
+#lang-buttons li:first-child img {
+  width: 32px;
+}
+  .home-link {
+    position: absolute;
+    top: 15px;
+    left: -380px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff007b, #560070);
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+  transition: background 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #580256, #0000ff);
+}
+#night-theme-btn:hover {
+  transform: scale(1.1);
+  filter: brightness(1.5);
+}
+#back-home {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 18px;
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: fit-content !important;
+    height: auto !important;
+    background: none !important;
+    border: none !important;
+    line-height: 1 !important;
+    overflow: visible !important;
+    white-space: nowrap !important;
+  }
+
+  #back-home::after,
+  #back-home::before {
+    display: none !important;
+    content: none !important;
+  }
+  @media (max-width: 320px) {
+  body {
+    transform: scale(0.7);
+    transform-origin: top left;
+    width: calc(100vw / 0.7);
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+  body {
+    transform: scale(0.8);
+    transform-origin: top left;
+    width: calc(100vw / 0.8);
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 480px) {
+  body {
+    transform: scale(0.9);
+    transform-origin: top left;
+    width: calc(100vw / 0.9);
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+  body {
+    transform: scale(1.5);
+    transform-origin: top left;
+    width: calc(100vw / 1.5);
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 2560px) and (max-width: 5119px) {
+  body {
+    transform: scale(2);
+    transform-origin: top left;
+    width: calc(100vw / 2);
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 5120px) {
+  body {
+    transform: scale(3);
+    transform-origin: top left;
+    width: calc(100vw / 3);
+    overflow-x: hidden;
+  }
+}
+  </style>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6412264727855282"
+  crossorigin="anonymous"></script>
+  <script defer src="js/night-theme.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/lang.js"></script>
+  
+  <script>
+    if (localStorage.getItem("theme") === "night-theme") {
+      document.addEventListener("DOMContentLoaded", function () {
+        document.body.classList.add("night-theme");
+      });
+    }
+  </script>  
+</head>
+<body>
+  <script>
+    const hoverSound = new Audio('Sounds/Hover_Sound.mp3');
+    const clickSound = new Audio('Sounds/Click_Sound.mp3');
+  
+    hoverSound.volume = 0.3;
+    clickSound.volume = 0.3;
+  
+    let soundsAllowed = false;
+    let hoverCooldown = false;
+  
+    function tryAutoEnableSound() {
+      hoverSound.play().then(() => {
+        hoverSound.pause();
+        hoverSound.currentTime = 0;
+        soundsAllowed = true;
+        initSoundListeners();
+      }).catch(() => {
+        document.body.addEventListener('mouseenter', unlockSoundOnce, { once: true });
+      });
+    }
+  
+    function unlockSoundOnce() {
+      soundsAllowed = true;
+      initSoundListeners();
+    }
+  
+    function initSoundListeners() {
+      document.querySelectorAll('.sound-btn').forEach(el => {
+        el.addEventListener('mouseenter', () => {
+          if (!soundsAllowed || hoverCooldown) return;
+          hoverCooldown = true;
+          hoverSound.currentTime = 0;
+          hoverSound.play().catch(() => {});
+          setTimeout(() => {
+            hoverCooldown = false;
+          }, 100);
+        });
+  
+        el.addEventListener('click', () => {
+          if (!soundsAllowed) return;
+          clickSound.currentTime = 0;
+          clickSound.play().catch(() => {});
+        });
+      });
+    }
+  
+    document.addEventListener("DOMContentLoaded", () => {
+      tryAutoEnableSound();
+      const lang = localStorage.getItem("lang") || "en";
+      const trySetLang = () => {
+        if (typeof setLanguage === "function") {
+          setLanguage(lang);
+        } else {
+          setTimeout(trySetLang, 50);
+        }
+      };
+      trySetLang();
+    });
+  </script>
+  
+<div class="container">
+  <h1>SHAKSIK - Music</h1>
+  <a href="index.html" class="home-link sound-btn" id="back-home">Back to Home</a>
+</div>
+<div class="music-section">
+  <h2 id="music-title">Listen to my music</h2>
+
+  <div class="tracks">
+    <div class="track">
+      <img src="img/halloween.webp" alt="Halloween Beat">
+      <div class="track-title">SHAKSIK - Halloween Beat</div>
+      <div class="spotify-widget">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2TrFoZ5E5Qw434saC4tgAa?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <a href="https://band.link/HalloweenBeat" class="listen-btn-halloween sound-btn">LISTEN</a>
+    </div>
+    <div class="track">
+      <img src="img/newyear.webp" alt="New Year Beat">
+      <div class="track-title">SHAKSIK - New Year Beat</div>
+      <div class="spotify-widget">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4EFGoKbHPiZGYR2jBogwLr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+    <a href="https://band.link/NewYearBeat" class="listen-btn-newyear sound-btn">LISTEN</a>  
+  </div>
+    <div class="track">
+      <img src="img/polizei.webp" alt="Polizei">
+      <div class="track-title">SHAKSIK - Polizei</div>
+      <div class="spotify-widget">
+      <iframe src="https://open.spotify.com/embed/album/2JwJ0zaXFyT7nhTjhooyXZ?utm_source=generator" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+      <a href="https://band.link/polizeibeat" class="listen-btn-polizei sound-btn">LISTEN</a>
+    </div>
+    <div class="track">
+      <img src="img/alou.webp" alt="alou">
+      <div class="track-title">SHAKSIK - ALOU</div>
+      <div class="spotify-widget">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6pmTa1JvGpEaThQ5RMQEHo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+      <a href="https://band.link/ALOU" class="listen-btn-alou sound-btn">LISTEN</a>
+    </div>
+    <div class="track">
+      <img src="img/sai.webp" alt="SAI">
+      <div class="track-title">SHAKSIK - SAI</div>
+      <div class="spotify-widget">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5GbihfGWcpE9UT0fNnYDr9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+      <a href="https://band.link/NewYearBeat" class="listen-btn-sai sound-btn">LISTEN</a>
+    </div>
+
+    <div class="track">
+      <img src="img/sakuras.webp" alt="Sakuras">
+      <div class="track-title">SHAKSIK - Sakuras</div>
+      <div class="spotify-widget">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6jHFxYrxwZ8wf14KJhFbbF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+      <a href="https://band.link/SAKURAS" class="listen-btn-sakuras sound-btn">LISTEN</a>
+    </div>
+    <div class="track">
+      <img src="img/western.webp" alt="Western">
+      <div class="track-title">SHAKSIK - Western</div>
+      <div class="spotify-widget">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/62SVXxKfcZQUQeC1bRCqAn?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+      <a href="https://band.link/western" class="listen-btn-western sound-btn">LISTEN</a>
+    </div>   <div class="track">
+      <img src="img/darkness.webp" alt="darkness">
+      <div class="track-title">SHAKSIK - Darkness</div>
+      <div class="spotify-widget">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6oeGdrgfSGdUohzBsTZwHi?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+      <a href="https://band.link/darknes" class="listen-btn-darkness sound-btn">LISTEN</a>
+    </div>   
+    <div class="track">
+      <img src="img/shadows.webp" alt="Shadows">
+      <div class="track-title">SHAKSIK - Shadows</div>
+      <div class="spotify-widget">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/19jRtF4kESE0VAjHZ0Lnce?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+      <a href="https://band.link/SHAKSYKSHADOWS" class="listen-btn-shadows sound-btn">LISTEN</a>
+  </div>
+    </div>
+</div>
+</div>  
+<button onclick="startSearch()" id="search-btn"class="sound-btn">🔍<span>Search...</span> </button> 
+</div>
+<ul id="lang-buttons">
+  <li>
+    <button onclick="setLanguage('en')" style="background: transparent; border: none; cursor: pointer; padding: 0;">
+      <img src="img/usa.webp" width="40" alt="EN" class="sound-btn">
+    </button>
+  </li>
+  <li>
+    <button onclick="setLanguage('uk')" style="background: transparent; border: none; cursor: pointer; padding: 0;">
+      <img src="img/ukraine.webp" width="32" alt="UA" class="sound-btn">
+    </button>
+  </li>
+  <li>
+    <button onclick="setLanguage('ru')" style="background: transparent; border: none; cursor: pointer; padding: 0;">
+      <img src="img/russia.webp" width="32" alt="RU" class="sound-btn">
+    </button>
+  </li>
+</ul>
+
+<footer class="footer">
+  <div class="social-media">
+    <h2 id="socialmedia-rule">My Social Media</h2> 
+    <a href="https://www.twitch.tv/shaksiktv" target="_blank">
+        <img src="img/twitch.webp" alt="Twitch" class="sound-btn"width="50">
+    </a>
+    <a href="https://www.youtube.com/@DarkSHAKSIK" target="_blank">
+        <img src="img/youtube.webp" alt="YouTube"class="sound-btn" width="50">
+    </a>
+    <a href="https://www.instagram.com/shadowdark_shaksik/" target="_blank">
+        <img src="img/instagram.webp" alt="Instagram"class="sound-btn" width="50">
+    </a>
+    <a href="https://www.tiktok.com/@shadowknight17q" target="_blank">
+        <img src="img/tiktok.webp" alt="TikTok"class="sound-btn" width="50">
+    </a>
+    <a href="https://t.me/SHAKSYK" target="_blank">
+        <img src="img/telegram.webp" alt="Telegram"class="sound-btn" width="50">
+    </a>
+    <a href="https://vk.com/shaksik" target="_blank"><img src="img/vk.webp" alt="VK"class="sound-btn"></a>
+  </div>
+  <div class="footer-text">
+    ©SHAKSIK 2025<br>
+    All Rights Reserved
+  </div>
+</footer>
+<div class="gallery"></div>
+<button class="night-theme-btn sound-btn" id="night-theme-btn">
+  <svg class="night-theme-btn__icon night-theme-btn__icon_sun" viewBox="0 0 64 64">
+    <g>
+      <circle fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" cx="32.003" cy="32.005" r="16.001"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" fill="#231F20" d="M12.001,31.997c0-2.211-1.789-4-4-4H4c-2.211,0-4,1.789-4,4 s1.789,4,4,4h4C10.212,35.997,12.001,34.208,12.001,31.997z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.204,46.139l-2.832,2.833c-1.563,1.562-1.563,4.094,0,5.656 c1.562,1.562,4.094,1.562,5.657,0l2.833-2.832c1.562-1.562,1.562-4.095,0-5.657C16.298,44.576,13.767,44.576,12.204,46.139z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.003,51.999c-2.211,0-4,1.789-4,4V60c0,2.211,1.789,4,4,4 s4-1.789,4-4l-0.004-4.001C36.003,53.788,34.21,51.999,32.003,51.999z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M51.798,46.143c-1.559-1.566-4.091-1.566-5.653-0.004 s-1.562,4.095,0,5.657l2.829,2.828c1.562,1.57,4.094,1.562,5.656,0s1.566-4.09,0-5.656L51.798,46.143z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M60.006,27.997l-4.009,0.008 c-2.203-0.008-3.992,1.781-3.992,3.992c-0.008,2.211,1.789,4,3.992,4h4.001 c2.219,0.008,4-1.789,4-4 C64.002,29.79,62.217,27.997,60.006,27.997z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M51.798,17.859l2.828-2.829c1.574-1.566,1.562-4.094,0-5.657 c-1.559-1.567-4.09-1.567-5.652-0.004l-2.829,2.836c-1.562,1.555-1.562,4.086,0,5.649C47.699,19.426,50.239,19.418,51.798,17.859z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.003,11.995c2.207,0.016,4-1.789,4-3.992v-4 c0-2.219-1.789-4-4-4c-2.211-0.008-4,1.781-4,3.993l0.008,4.008C28.003,10.206,29.792,11.995,32.003,11.995z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M12.212,17.855c1.555,1.562,4.079,1.562,5.646-0.004 c1.574-1.551,1.566-4.09,0.008-5.649l-2.829-2.828c-1.57-1.571-4.094-1.559-5.657,0 c-1.575,1.559-1.575,4.09-0.012,5.653 L12.212,17.855z"/>
+    </g>
+  </svg>
+  <svg class="night-theme-btn__icon night-theme-btn__icon_moon" viewBox="0 0 24 24">
+    <path d="M21.5287 15.9294C21.3687 15.6594 20.9187 15.2394 19.7987 15.4394C19.1787 15.5494 18.5487 15.5994 17.9187 15.5694C15.5887 15.4694 13.4787 14.3994 12.0087 12.7494C10.7087 11.2994 9.90873 9.40938 9.89873 7.36938C9.89873 6.22938 10.1187 5.12938 10.5687 4.08938C11.0087 3.07938 10.6987 2.54938 10.4787 2.32938C10.2487 2.09938 9.70873 1.77938 8.64873 2.21938C4.55873 3.93938 2.02873 8.03938 2.32873 12.4294C2.62873 16.5594 5.52873 20.0894 9.36873 21.4194C10.2887 21.7394 11.2587 21.9294 12.2587 21.9694C12.4187 21.9794 12.5787 21.9894 12.7387 21.9894C16.0887 21.9894 19.2287 20.4094 21.2087 17.7194C21.8787 16.7894 21.6987 16.1994 21.5287 15.9294Z" fill="#292D32"/>
+  </svg>
+</button>
+</body>
+</html>

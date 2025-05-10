@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shaksikoff.pp.ua/
+Sitemap: https://shaksikoff.pp.ua/music
+Sitemap: https://shaksikoff.pp.ua/mods
+Sitemap: https://shaksikoff.pp.ua/videos
+Sitemap: https://shaksikoff.pp.ua/about
+

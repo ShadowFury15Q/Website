@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "https://silly-jalebi-e5cb19.netlify.app/*"
+  to = "https://shaksikoff.pp.ua/:splat"
+  status = 301
+  force = true
+  
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
